@@ -1,4 +1,5 @@
 # Demo
 This is my first git repository.
 <br>
-Author- Swati Singh
+Author - Swati Singh
+
