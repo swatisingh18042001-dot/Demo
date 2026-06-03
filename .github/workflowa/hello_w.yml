@@ -1,0 +1,9 @@
+name: hello workflow
+on:
+  push:
+jobs:
+  hello_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello Message
+        run: echo "Hello World!, This is ${{vars.first_name}} ${{secrets.last_name}}"
